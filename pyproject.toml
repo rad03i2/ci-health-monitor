@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ci-health-monitor"
+version = "1.0.0"
+description = "Offline health analysis for exported GitHub Actions workflow history."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Radwan Abdulhadi Ahmed"}]
+keywords = ["ci", "github-actions", "devops", "monitoring"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.scripts]
+ci-health-monitor = "ci_health_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
