@@ -1,0 +1,5 @@
+[
+  {"workflowName":"CI","status":"completed","conclusion":"success","createdAt":"2026-01-01T10:00:00Z","updatedAt":"2026-01-01T10:02:10Z","url":"https://example.invalid/synthetic/1"},
+  {"workflowName":"CI","status":"completed","conclusion":"success","createdAt":"2026-01-02T10:00:00Z","updatedAt":"2026-01-02T10:01:45Z","url":"https://example.invalid/synthetic/2"},
+  {"workflowName":"Docs","status":"completed","conclusion":"failure","createdAt":"2026-01-03T10:00:00Z","updatedAt":"2026-01-03T10:03:00Z","url":"https://example.invalid/synthetic/3"}
+]
